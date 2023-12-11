@@ -62,6 +62,7 @@ Acknowledge
 Thanks to the following research for their open source code:
 
 [1] Danfeng Hong, Zhu Han, Jing Yao, Lianru Gao, Bing Zhang, Antonio Plaza, and Jocelyn Chanussot. “Spectralformer: Rethinking hyperspectral image classification with transformers,” IEEE Trans. Geosci. Remote Sensing, vol. 60, pp. 1-15, 2022, doi: 10.1109/TGRS.2021.3130716.
+
 [2] S. K. Roy, A. Deria, C. Shah, J. M. Haut, Q. Du, and A. Plaza, “Spectral–Spatial Morphological Attention Transformer for Hyperspectral Image Classification,” IEEE Trans. Geosci. Remote Sensing, vol. 61, pp. 1–15, 2023, doi: 10.1109/TGRS.2023.3242346.
 
 
