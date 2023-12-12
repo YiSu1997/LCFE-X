@@ -3,7 +3,7 @@ Xiaojun Li, Yi Su, Junping Yao, Yao Wang
 
 The code in this toolbox implements the ["LCFE-X: Pluggable Local Channel Feature Etraction Model Enhancement Method for Hyperspectral Image Classification"]. 
 
-The paper was submitted to "IEEE Transactions on Geosciense and Remote Sensing" in 12 Dec., 2023 (Manuscript ID:).
+The paper was submitted to "IEEE Transactions on Geosciense and Remote Sensing" in 10 Dec., 2023 (Manuscript ID: TGRS-2023-06338).
 
 This toolbox includes a proposed module named Local Channel Feature Extraction (LCFE) and a pluggable LCFE-X Model Enhancement Method that can be plug-and-played into Transformer-based hyperspectral image classification basic models. 
 
