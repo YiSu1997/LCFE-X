@@ -66,7 +66,7 @@ def gain_neighborhood_band(x_train, band, group, patch=5):
 
 
 def gain_neighborhood_overlappingbandgroup(x_train, band, group, patch=5):
-    # band分组间波段重叠
+    # overlapping band grouping
     nn = group // 2
     pp = (patch*patch) // 2
     x_train_band = np.zeros((x_train.shape[0], patch, patch, group, band),dtype=float)

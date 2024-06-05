@@ -25,9 +25,10 @@ class LCFE(nn.Module):
     def __init__(self, channel, cube_size=7, reduction=16):
         super().__init__()
 
+        self.patchsize = cube_size
         # Each band group shares the convolutional kernel of pooling
-        self.maxpool = nn.AdaptiveMaxPool2d(cube_size)
-        self.avgpool = nn.AdaptiveAvgPool2d(cube_size)
+        self.maxpool = nn.AdaptiveMaxPool3d((channel,1,1))
+        self.avgpool = nn.AdaptiveAvgPool3d((channel,1,1))
         # Mlp for sharing and integrating spectral information within groups
         # (using 1D convolution to achieve fully connected layers)
         self.interaction = nn.Sequential(
@@ -53,7 +54,8 @@ class LCFE(nn.Module):
         del max_out
         del avg_out
 
-        return torch.reshape(output, (b, p, 1, i, j))  # The grouping dimension has been integrated into 1 when output
+        # The grouping dimension has been integrated into 1 when output, and the output value will be repeated to recover the patchsize
+        return torch.reshape(output, (b, p, 1, 1, 1)).repeat([1,1,1,self.patchsize,self.patchsize])
 
 
 class hyperchannelViT(nn.Module):
