@@ -48,14 +48,41 @@ Citation
 Please kindly cite the papers if this code is useful and helpful for your research.
 
 @article{LI2024112215,
+
 title = {LCFE-X: Pluggable Local Channel Feature Extraction model enhancement method for hyperspectral image classification},
+
 journal = {Knowledge-Based Systems},
+
+author = {Xiaojun Li and Yi Su and Junping Yao and Hongyang Gu and Yibo Jiao},
+
 pages = {112215},
+
 year = {2024},
+
 issn = {0950-7051},
+
 doi = {https://doi.org/10.1016/j.knosys.2024.112215},
-url = {https://www.sciencedirect.com/science/article/pii/S0950705124008499},
-author = {Xiaojun Li and Yi Su and Junping Yao and Hongyang Gu and Yibo Jiao}
+
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124008499}}
+
+
+@ARTICLE{10141657,
+
+title={A Spectral–Spatial Feature Rotation-Based Ensemble Method for Imbalanced Hyperspectral Image Classification}, 
+
+journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+
+author={Su, Yi and Li, Xiaojun and Yao, Junping and Dong, Chengrong and Wang, Yao},
+
+year={2023},
+
+volume={61},
+
+pages={1-18},
+
+doi={10.1109/TGRS.2023.3282064},
+
+url = {https://ieeexplore.ieee.org/document/10141657}}
 
 
 Requirments
