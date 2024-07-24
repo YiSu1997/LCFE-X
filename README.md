@@ -1,13 +1,11 @@
 # LCFE-X: Pluggable Local Channel Feature Extraction Model Enhancement Method for Hyperspectral Image Classification
 Xiaojun Li, Yi Su, Junping Yao, Hongyang Gu, Yibo Jiao
 
-The code in this toolbox implements the ["LCFE-X: Pluggable Local Channel Feature Extraction Model Enhancement Method for Hyperspectral Image Classification"]. 
-
-The paper is under review.
+The code in this toolbox implements the ["LCFE-X: Pluggable Local Channel Feature Extraction Model Enhancement Method for Hyperspectral Image Classification"].
 
 This toolbox includes a proposed module named Local Channel Feature Extraction (LCFE) and a pluggable LCFE-X Model Enhancement Method that can be plug-and-played into Transformer-based hyperspectral image classification basic models. 
 
-For further information, please refer to the upcoming paper.
+For further information, please refer to the paper (https://doi.org/10.1016/j.knosys.2024.112215).
 
 
 How to use it?
@@ -49,7 +47,15 @@ Citation
 ---------------------
 Please kindly cite the papers if this code is useful and helpful for your research.
 
-Since the paper corresponding to this code has not yet been publicly published, you can first refer to this code library connection and confirm whether this paper is in a citation status and supplement it before the official publication of your paper.
+@article{LI2024112215,
+title = {LCFE-X: Pluggable Local Channel Feature Extraction model enhancement method for hyperspectral image classification},
+journal = {Knowledge-Based Systems},
+pages = {112215},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.112215},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124008499},
+author = {Xiaojun Li and Yi Su and Junping Yao and Hongyang Gu and Yibo Jiao}
 
 
 Requirments
