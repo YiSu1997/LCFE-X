@@ -61,9 +61,8 @@ year = {2024},
 
 issn = {0950-7051},
 
-doi = {https://doi.org/10.1016/j.knosys.2024.112215},
+doi = {https://doi.org/10.1016/j.knosys.2024.112215}}
 
-url = {https://www.sciencedirect.com/science/article/pii/S0950705124008499}}
 
 
 @ARTICLE{10141657,
@@ -80,9 +79,7 @@ volume={61},
 
 pages={1-18},
 
-doi={10.1109/TGRS.2023.3282064},
-
-url = {https://ieeexplore.ieee.org/document/10141657}}
+doi={10.1109/TGRS.2023.3282064}}
 
 
 Requirments
